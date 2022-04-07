@@ -6,7 +6,7 @@ This is a small solution built live during a Low-code presentation. The idea of 
 
 ## Installation
 
-- Built using Linx 6.0.5 (https://linx.software
+- Built using Linx 6.0.5 (https://linx.software)
 - Database script for MS SQL
 
 ## Usage
