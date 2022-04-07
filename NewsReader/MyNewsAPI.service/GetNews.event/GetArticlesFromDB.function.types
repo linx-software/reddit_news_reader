@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "lfhN",
+      "Properties": [
+        {
+          "Id": "ID",
+          "Name": "ID",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "RedditID",
+          "Name": "RedditID",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Title",
+          "Name": "Title",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "URL",
+          "Name": "URL",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "CreatedDate",
+          "Name": "CreatedDate",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

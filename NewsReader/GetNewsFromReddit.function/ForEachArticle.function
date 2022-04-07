@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:H2St",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:H2St",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "RedditCall.ResponseBody.data.children",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:H2St"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Id": "H2St",
+  "Name": "RedditResponse_data_children",
+  "Properties": [
+    {
+      "Id": "rRMY",
+      "Name": "kind",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "eVT9",
+      "Name": "data",
+      "Type": "Custom:tKca"
+    }
+  ]
+}

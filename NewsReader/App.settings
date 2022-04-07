@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "QaUl",
+    "Name": "RedditRESTURL",
+    "Type": "Compiled:String",
+    "Value": "https://www.reddit.com/r/worldnews/new.json?limit=3"
+  },
+  {
+    "Id": "FFBd",
+    "Name": "DBConn",
+    "Type": "Compiled:String",
+    "Secret": true
+  }
+]

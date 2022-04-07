@@ -1,0 +1,531 @@
+{
+  "Id": "tKca",
+  "Name": "RedditResponse_data_children_data",
+  "Properties": [
+    {
+      "Id": "RHYQ",
+      "Name": "approved_at_utc",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "SMvr",
+      "Name": "subreddit",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "X5G6",
+      "Name": "selftext",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "W9rF",
+      "Name": "author_fullname",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "VSuX",
+      "Name": "saved",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "dHhA",
+      "Name": "mod_reason_title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OsyZ",
+      "Name": "gilded",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "EVLU",
+      "Name": "clicked",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "d0pQ",
+      "Name": "title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "nBVo",
+      "Name": "link_flair_richtext",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "8iYe",
+      "Name": "subreddit_name_prefixed",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "pUiE",
+      "Name": "hidden",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "m4PR",
+      "Name": "pwls",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "jnLB",
+      "Name": "link_flair_css_class",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "QoZ8",
+      "Name": "downs",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "nLNP",
+      "Name": "top_awarded_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "JeqL",
+      "Name": "hide_score",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "piS6",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "VXgm",
+      "Name": "quarantine",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "hDsC",
+      "Name": "link_flair_text_color",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "UKUq",
+      "Name": "upvote_ratio",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "M1vU",
+      "Name": "author_flair_background_color",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "WKos",
+      "Name": "subreddit_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "2Q5Z",
+      "Name": "ups",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "BJlB",
+      "Name": "total_awards_received",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "VDWb",
+      "Name": "media_embed",
+      "Type": "Custom:7YZQ"
+    },
+    {
+      "Id": "P8qU",
+      "Name": "author_flair_template_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "g1Pf",
+      "Name": "is_original_content",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "lNiY",
+      "Name": "user_reports",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "6MeG",
+      "Name": "secure_media",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "wsCH",
+      "Name": "is_reddit_media_domain",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "DImH",
+      "Name": "is_meta",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "YSW9",
+      "Name": "category",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ucoz",
+      "Name": "secure_media_embed",
+      "Type": "Custom:7YZQ"
+    },
+    {
+      "Id": "odTI",
+      "Name": "link_flair_text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "VTmv",
+      "Name": "can_mod_post",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "FSYO",
+      "Name": "score",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "SvOS",
+      "Name": "approved_by",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "X1jT",
+      "Name": "is_created_from_ads_ui",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "0dHt",
+      "Name": "author_premium",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "prId",
+      "Name": "thumbnail",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Xd0X",
+      "Name": "edited",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "1ScY",
+      "Name": "author_flair_css_class",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "NK6c",
+      "Name": "author_flair_richtext",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "20U2",
+      "Name": "gildings",
+      "Type": "Custom:7YZQ"
+    },
+    {
+      "Id": "TQYG",
+      "Name": "content_categories",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "vSi5",
+      "Name": "is_self",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "UVEY",
+      "Name": "mod_note",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "zOAV",
+      "Name": "created",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "2VnQ",
+      "Name": "link_flair_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OvMb",
+      "Name": "wls",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "YUuL",
+      "Name": "removed_by_category",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "0vdS",
+      "Name": "banned_by",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "9uL5",
+      "Name": "author_flair_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "YxiQ",
+      "Name": "domain",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "FCPN",
+      "Name": "allow_live_comments",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "utaw",
+      "Name": "selftext_html",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "zXKm",
+      "Name": "likes",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "zTI2",
+      "Name": "suggested_sort",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lsna",
+      "Name": "banned_at_utc",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "fyG7",
+      "Name": "url_overridden_by_dest",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "PL0w",
+      "Name": "view_count",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "DJsF",
+      "Name": "archived",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "Evp3",
+      "Name": "no_follow",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "2GwG",
+      "Name": "is_crosspostable",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "89yr",
+      "Name": "pinned",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "2GKi",
+      "Name": "over_18",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "Z1SS",
+      "Name": "all_awardings",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "IilS",
+      "Name": "awarders",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "xzLm",
+      "Name": "media_only",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "zcHG",
+      "Name": "can_gild",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "Pzqh",
+      "Name": "spoiler",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "16da",
+      "Name": "locked",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "3mYe",
+      "Name": "author_flair_text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "seMZ",
+      "Name": "treatment_tags",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "oWmS",
+      "Name": "visited",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "ZBtw",
+      "Name": "removed_by",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "omF0",
+      "Name": "num_reports",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "piSf",
+      "Name": "distinguished",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Fl0X",
+      "Name": "subreddit_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "a6cJ",
+      "Name": "author_is_blocked",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "9u4S",
+      "Name": "mod_reason_by",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "udfp",
+      "Name": "removal_reason",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "w7EH",
+      "Name": "link_flair_background_color",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "NjD5",
+      "Name": "id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "WOl5",
+      "Name": "is_robot_indexable",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "hjE5",
+      "Name": "report_reasons",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "akA3",
+      "Name": "author",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "1rb3",
+      "Name": "discussion_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "g7FK",
+      "Name": "num_comments",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "SRGH",
+      "Name": "send_replies",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "2o1W",
+      "Name": "whitelist_status",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "vzGS",
+      "Name": "contest_mode",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "uSzk",
+      "Name": "mod_reports",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "LyCy",
+      "Name": "author_patreon_flair",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "roFy",
+      "Name": "author_flair_text_color",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "BIeH",
+      "Name": "permalink",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "hV31",
+      "Name": "parent_whitelist_status",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "p0Yo",
+      "Name": "stickied",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "tfG2",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "4an7",
+      "Name": "subreddit_subscribers",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "wGoa",
+      "Name": "created_utc",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "Xsfj",
+      "Name": "num_crossposts",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "q7f8",
+      "Name": "media",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "26Yj",
+      "Name": "is_video",
+      "Type": "Compiled:Boolean"
+    }
+  ]
+}

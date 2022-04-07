@@ -1,0 +1,36 @@
+{
+  "Id": "84XA",
+  "Name": "RedditResponse_data",
+  "Properties": [
+    {
+      "Id": "wNI8",
+      "Name": "after",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "HGfC",
+      "Name": "dist",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "7mJn",
+      "Name": "modhash",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "cXxB",
+      "Name": "geo_filter",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "svcY",
+      "Name": "children",
+      "Type": "List:Custom:H2St"
+    },
+    {
+      "Id": "VsqB",
+      "Name": "before",
+      "Type": "Compiled:String"
+    }
+  ]
+}

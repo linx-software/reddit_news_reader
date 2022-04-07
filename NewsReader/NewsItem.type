@@ -1,0 +1,26 @@
+{
+  "Id": "1ubY",
+  "Name": "NewsItem",
+  "Properties": [
+    {
+      "Id": "JCdW",
+      "Name": "ID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "8yDO",
+      "Name": "Title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "XWFH",
+      "Name": "URL",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "HIXT",
+      "Name": "DateCreated",
+      "Type": "Compiled:String"
+    }
+  ]
+}

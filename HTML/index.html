@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            html * {
+                font-family: monospace;
+            }
+        </style>
+    </head>
+
+    <h1>Latest news</h1>
+
+    <table>
+        <tbody id="body"></tbody>
+    </table>
+    
+    <script>
+        fetch("https://linxevent.southafricanorth.cloudapp.azure.com/NewsApi/News")
+        .then(response => response.json())
+        .then(data => populateTable(data));
+
+        function populateTable(items){
+            const table = document.getElementById("body");
+            items.forEach(item => {
+                const row = table.insertRow();
+                row.insertCell(0).innerHTML = item.DateCreated;
+                const title = document.createElement("a");
+                title.innerHTML = item.Title;
+                title.href = item.URL;
+                row.insertCell(1).appendChild(title);
+            });
+        }
+    </script>
+</html>

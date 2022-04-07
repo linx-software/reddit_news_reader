@@ -1,0 +1,66 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:1ubY",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ListOfArticles",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:1ubY"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:1ubY",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"ID\":{\"LinxExpression\":\"[PARSED]\"}, \"Title\":{\"LinxExpression\":\"[PARSED]\"}, \"URL\":{\"LinxExpression\":\"[PARSED]\"}, \"DateCreated\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "ID"
+            ],
+            "expression": {
+              "Expression": "GetArticlesFromDB.ForEachRow.RedditID",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Title"
+            ],
+            "expression": {
+              "Expression": "GetArticlesFromDB.ForEachRow.Title",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "URL"
+            ],
+            "expression": {
+              "Expression": "GetArticlesFromDB.ForEachRow.URL",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "DateCreated"
+            ],
+            "expression": {
+              "Expression": "GetArticlesFromDB.ForEachRow.CreatedDate.ToString(\"yyyy-MM-dd HH:mm\")",
+              "CompiledExpression": "={0}.ToString(\"yyyy-MM-dd HH:mm\")",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}
